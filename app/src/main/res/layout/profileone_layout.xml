@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgProfile1"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+
+
+        />
+    <Button
+        android:id="@+id/btnKokan"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="KOKAN"
+        />
+
+    <Button
+        android:id="@+id/btnKerala"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="KERALA"
+        />
+
+    <Button
+        android:id="@+id/btnManali"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="MANALI"
+        />
+
+    <Button
+        android:id="@+id/btnGoa"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="GOA"
+        />
+
+</LinearLayout>
