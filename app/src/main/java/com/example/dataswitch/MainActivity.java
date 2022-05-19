@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent=new Intent(MainActivity.this,PictureActivity.class);
-            intent.putExtra("place1",R.drawable.kokan1);
-            intent.putExtra("place2",R.drawable.kokan2);
-            intent.putExtra("place3",R.drawable.kokan3);
-            intent.putExtra("place4",R.drawable.kokan4);
+            intent.putExtra("imageViewKey1",R.drawable.kokan1);
+            intent.putExtra("imageViewKey2",R.drawable.kokan2);
+            intent.putExtra("imageViewKey3",R.drawable.kokan3);
+            intent.putExtra("imageViewKey4",R.drawable.kokan4);
 
 
 
@@ -71,10 +71,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent=new Intent(MainActivity.this,PictureActivity.class);
-            intent.putExtra("place1",R.drawable.goa1);
-            intent.putExtra("place2",R.drawable.goa2);
-            intent.putExtra("place3",R.drawable.goa3);
-            intent.putExtra("place4",R.drawable.goa4);
+            intent.putExtra("imageViewKey1",R.drawable.goa1);
+            intent.putExtra("imageViewKey2",R.drawable.goa2);
+            intent.putExtra("imageViewKey3",R.drawable.goa3);
+            intent.putExtra("imageViewKey4",R.drawable.goa4);
 
 
 
@@ -86,10 +86,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent=new Intent(MainActivity.this,PictureActivity.class);
-            intent.putExtra("place1",R.drawable.kerala1);
-            intent.putExtra("place2",R.drawable.kerala2);
-            intent.putExtra("place3",R.drawable.kerala3);
-            intent.putExtra("place4",R.drawable.kerala4);
+            intent.putExtra("imageViewKey1",R.drawable.kerala1);
+            intent.putExtra("imageViewKey2",R.drawable.kerala2);
+            intent.putExtra("imageViewKey3",R.drawable.kerala3);
+            intent.putExtra("imageViewKey4",R.drawable.kerala4);
 
 
 
@@ -101,10 +101,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent=new Intent(MainActivity.this,PictureActivity.class);
-            intent.putExtra("place1",R.drawable.manali1);
-            intent.putExtra("place2",R.drawable.manali2);
-            intent.putExtra("place3",R.drawable.manali3);
-            intent.putExtra("place4",R.drawable.manali4);
+            intent.putExtra("imageViewKey1",R.drawable.manali1);
+            intent.putExtra("imageViewKey2",R.drawable.manali2);
+            intent.putExtra("imageViewKey3",R.drawable.manali3);
+            intent.putExtra("imageViewKey4",R.drawable.manali4);
 
 
 

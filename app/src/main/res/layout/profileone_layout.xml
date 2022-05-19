@@ -15,6 +15,9 @@
 
 
         />
+
+
+
     <Button
         android:id="@+id/btnKokan"
         android:layout_width="150dp"

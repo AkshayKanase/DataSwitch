@@ -12,7 +12,9 @@ public class PictureActivity extends Activity {
     private ImageView imgPlace2;
     private ImageView imgPlace3;
     private ImageView imgPlace4;
-    private int place1,place2,place3,place4;
+    private int imagePlaceSet1,imagePlaceSet2,imagePlaceSet3,imagePlaceSet4;
+
+
 
 
     @Override
@@ -30,15 +32,15 @@ public class PictureActivity extends Activity {
         Intent intent=getIntent();
         Bundle bundle=intent.getExtras();
 
-        place1=bundle.getInt("place1");
-        place2=bundle.getInt("place2");
-        place3=bundle.getInt("place3");
-        place4=bundle.getInt("place4");
+        imagePlaceSet1=bundle.getInt("imageViewKey1");
+        imagePlaceSet2=bundle.getInt("imageViewKey2");
+        imagePlaceSet3=bundle.getInt("imageViewKey3");
+        imagePlaceSet4=bundle.getInt("imageViewKey4");
 
-        imgPlace1.setImageResource(place1);
-        imgPlace2.setImageResource(place2);
-        imgPlace3.setImageResource(place3);
-        imgPlace4.setImageResource(place4);
+        imgPlace1.setImageResource(imagePlaceSet1);
+        imgPlace2.setImageResource(imagePlaceSet2);
+        imgPlace3.setImageResource(imagePlaceSet3);
+        imgPlace4.setImageResource(imagePlaceSet4);
 
     }
 
@@ -64,7 +66,7 @@ public class PictureActivity extends Activity {
         @Override
         public void onClick(View view) {
             Intent resultIntent=new Intent();
-            resultIntent.putExtra("result",place1);
+            resultIntent.putExtra("result",imagePlaceSet1);
             setResult(1,resultIntent);
 
             finish();
@@ -77,7 +79,7 @@ public class PictureActivity extends Activity {
         @Override
         public void onClick(View view) {
             Intent resultIntent=new Intent();
-            resultIntent.putExtra("result",place2);
+            resultIntent.putExtra("result",imagePlaceSet2);
             setResult(1,resultIntent);
 
             finish();
@@ -89,7 +91,7 @@ public class PictureActivity extends Activity {
         @Override
         public void onClick(View view) {
             Intent resultIntent=new Intent();
-            resultIntent.putExtra("result",place3);
+            resultIntent.putExtra("result",imagePlaceSet3);
             setResult(1,resultIntent);
 
             finish();
@@ -101,7 +103,7 @@ public class PictureActivity extends Activity {
         @Override
         public void onClick(View view) {
             Intent resultIntent=new Intent();
-            resultIntent.putExtra("result", place4);
+            resultIntent.putExtra("result", imagePlaceSet4);
             setResult(1,resultIntent);
 
             finish();
